@@ -1,0 +1,89 @@
+.page-container {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-size: x-large;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-bar-container {
+  padding: 1.5%;
+  padding-inline: 3.5%;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-bar-brand {
+  color: #f0f0f0;
+  font-size: x-large;
+  font-family: 'Gill Sans';
+}
+
+.button {
+  border-width: 1px;
+  border-radius: 5px;
+  text-decoration-line: none;
+  font-family: 'Gill Sans';
+  font-size: large;
+}
+
+.card {
+  border-radius: 20px;
+  border: 1px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 60px;
+}
+
+.input-form-conatiner {
+  display: flex;
+  flex-direction: column;
+  padding-block: 60px;
+  padding-inline: 60px;
+}
+
+.icon {
+  width: 12px;
+  height: 12px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration-line: none;
+  font-family: 'Gill Sans';
+  margin-left: 5px;
+}
+
+@media (max-width: 360px) {
+  .nav-bar-container {
+    padding: 2.5%;
+    padding-inline: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card {
+    width: 25%;
+  }
+}
